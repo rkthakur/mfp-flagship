@@ -23,7 +23,7 @@ jobs:
       - run: npm run build
         env:
           PRODUCTION_DOMAIN: ${{ PRODUCTION_DOMAIN }}
-          
+
       - name: ACTIONS_ALLOW_UNSECURE_COMMANDS
         run: echo 'ACTIONS_ALLOW_UNSECURE_COMMANDS=true' >> $GITHUB_ENV
 
