@@ -2,6 +2,7 @@ import React from 'react';
 import { Switch, Route, Router} from 'react-router-dom';
 import { StylesProvider, createGenerateClassName } from '@material-ui/core/styles';
 
+
 import Products from './components/Products';
 
 const generateClassName = createGenerateClassName({
