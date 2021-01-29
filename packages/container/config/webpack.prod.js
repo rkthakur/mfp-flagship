@@ -19,7 +19,7 @@ const prodConfig = {
                 marketing: `marketing@${domain}/marketing/latest/remoteEntry.js`,
                 auth: `auth@${domain}/auth/latest/remoteEntry.js`,
                 dashboard: `dashboard@${domain}/dashboard/latest/remoteEntry.js`,
-                fbwidget: 'fbwidget@${domain}/fbwidget/latest/remoteEntry.js'
+                fbwidget: `fbwidget@${domain}/fbwidget/latest/remoteEntry.js`
             },
             shared: packageJson.dependencies,
         })
