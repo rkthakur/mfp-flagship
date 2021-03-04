@@ -33,7 +33,6 @@ export default () => {
     <Router history={history}>
       <StylesProvider generateClassName={generateClassName}>
         <div>
-          <h1>Mt Arora is Great</h1>
           <Header
             onSignOut={() => setIsSignedIn(false)}
             isSignedIn={isSignedIn}
